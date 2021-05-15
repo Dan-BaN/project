@@ -15,14 +15,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clementine.EntranceUIController">
    <children>
-      <Pane fx:id="contentArea" layoutX="-14.0" layoutY="51.0" prefHeight="576.0" prefWidth="1076.0" style="-fx-background-color: #c1dbd9;" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="205.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
-         <children>
-            <Label layoutX="411.0" layoutY="219.0" text="Click on a Tab to View">
-               <font>
-                  <Font size="26.0" />
-               </font>
-            </Label>
-         </children></Pane>
+      <Pane fx:id="contentArea" layoutX="-14.0" layoutY="51.0" prefHeight="576.0" prefWidth="1076.0" style="-fx-background-color: #c1dbd9;" styleClass="body-background" stylesheets="@covermanager/coverstyles.css" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="205.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0" />
       <VBox prefHeight="631.0" prefWidth="206.0" style="-fx-background-color: #F6DE4B;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Button fx:id="searchButton" mnemonicParsing="false" onAction="#search" prefHeight="50.0" prefWidth="206.0" text="Search">
@@ -73,7 +66,7 @@
                   <Font size="20.0" />
                </font>
             </Button>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc336" height="23.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="124.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc336" height="23.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="208.0" />
             <Button fx:id="songInfoButton" layoutX="10.0" layoutY="420.0" mnemonicParsing="false" onAction="#songInfo" prefHeight="50.0" prefWidth="206.0" text="Song Info">
                <VBox.margin>
                   <Insets bottom="10.0" top="5.0" />

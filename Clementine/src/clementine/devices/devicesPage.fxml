@@ -20,7 +20,7 @@
    <children>
       <SplitPane layoutX="2.0" layoutY="1.0" maxHeight="600.0" maxWidth="1050.0" prefHeight="595.0" prefWidth="1045.0">
         <items>
-          <AnchorPane maxHeight="600.0" maxWidth="1050.0" minHeight="500.0" minWidth="700.0" prefHeight="801.0" prefWidth="700.0" style="-fx-background-color: orange;" styleClass="body" stylesheets="@devicespage.css">
+          <AnchorPane maxHeight="614.0" maxWidth="1069.0" minHeight="500.0" minWidth="700.0" prefHeight="614.0" prefWidth="1069.0" style="-fx-background-color: orange;" styleClass="body-background" stylesheets="@../library/librarypage.css">
                <children>
                   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7a900" height="79.0" layoutX="492.0" layoutY="436.0" stroke="BLACK" strokeType="INSIDE" width="250.0" />
                   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="71.0" layoutX="-1.0" layoutY="181.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" width="490.0" />

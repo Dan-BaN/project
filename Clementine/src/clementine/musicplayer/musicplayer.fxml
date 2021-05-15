@@ -15,7 +15,7 @@
          <children>
             <Pane layoutX="6.0" layoutY="17.0" prefHeight="802.0" prefWidth="529.0" style="-fx-background-color: red;">
                <children>
-                  <ImageView fitHeight="537.0" fitWidth="533.0" layoutX="-2.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="530.0" fitWidth="530.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../images/2db47079e7f84dcd5b80b31656d8681d.png" />
                      </image>
@@ -25,7 +25,7 @@
                         <Image url="@../../../../../../../Pictures/New%20folder%20(2)/612QjmN623L._SY355_.jpg" />
                      </image>
                   </ImageView>
-                  <Text layoutX="136.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hardwell -" wrappingWidth="489.9093017578125">
+                  <Text layoutX="137.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hardwell -" wrappingWidth="489.9093017578125">
                      <font>
                         <Font size="23.0" />
                      </font>
@@ -86,6 +86,16 @@
                   <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="19.0" layoutY="21.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../images/list_2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="71.0" layoutX="234.0" layoutY="740.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/heart.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="45.0" fitWidth="34.0" layoutX="453.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/5050-200.png" />
                      </image>
                   </ImageView>
                </children>
